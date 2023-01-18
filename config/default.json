@@ -1,0 +1,6 @@
+{
+    "azure": {
+        "storageAccountName": "your-storage-account-name",
+        "storageAccountKey": "your-storage-account-key"
+    }
+}
