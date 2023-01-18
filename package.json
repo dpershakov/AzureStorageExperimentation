@@ -1,0 +1,17 @@
+{
+  "name": "blobstoragesasgen",
+  "version": "1.0.0",
+  "description": "Azure Stoarge \u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[DBlob Storage SAS token generator sample",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Denis Pershakov",
+  "license": "ISC",
+  "dependencies": {
+    "@azure/storage-blob": "^12.12.0",
+    "azure-storage": "^2.10.7",
+    "minimalist": "^1.0.0",
+    "minimist": "^1.2.7"
+  }
+}
