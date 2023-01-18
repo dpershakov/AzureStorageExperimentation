@@ -10,6 +10,7 @@ function generateSignedUrl(containerName, blobName) {
 
     const sharedAccessPolicy = {
         AccessPolicy: {
+            //IPAddressOrRange: "10.10.10.1",
             Permissions: azure.BlobUtilities.SharedAccessPermissions.READ,
             Start: new Date(),
             Expiry: azure.date.minutesFromNow(1),
